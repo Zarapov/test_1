@@ -1,0 +1,14 @@
+.App {
+  font-family: sans-serif;
+  padding: 10px;
+
+  nav {
+    display: flex;
+    justify-content: left;
+    margin-bottom: 50px;
+
+    a:not(:first-child) {
+      margin-left: 10px;
+    }
+  }
+}
